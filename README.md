@@ -7,9 +7,9 @@ This repository contains an implementation of a scheduler for ARM Cortex M4 proc
 - **Round Robin Algorithm**: The scheduler employs the Round Robin algorithm for task scheduling, ensuring fair execution among tasks.
 - **ARM Cortex M4 Support**: The scheduler utilizes features specific to ARM Cortex M4 processors, including PendSV and SVC, to manage task scheduling efficiently.
 - **Functions**:
-  - `void OS_TaskDelay(u32 a_delay)`: Allows tasks to delay their execution for a specified duration.
   - `void OS_Init(void (*a_IdleTaskHandler)(void))`: Initializes the scheduler, specifying the handler for the idle task.
   - `u8 OS_CreateTask(u32 a_task_stack_size, void (*a_Task_handler)(void))`: Creates a new task with the specified stack size and handler function.
+  - `void OS_TaskDelay(u32 a_delay)`: Allows tasks to delay their execution for a specified duration.
   - `void OS_StartScheduler(u32 a_TickCounts)`: Starts the scheduler with the specified tick counts.
   - `u32 SVC_execute(u8 a_svc_num)`: Executes the specified supervisor call (SVC) number.
   - `void SVC_Handler_C(u32 *a_MSP_value)`: Handles supervisor calls (SVC) in C language.
