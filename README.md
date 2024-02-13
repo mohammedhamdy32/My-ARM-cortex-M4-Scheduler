@@ -29,7 +29,7 @@ To use the ARM Cortex M4 Scheduler in your project, follow these steps:
 ## Example
 
 ```c
-#include "scheduler.h"
+#include "Kernal_interface.h"
 
 // Task handler functions
 void Task1_Handler(void) {
