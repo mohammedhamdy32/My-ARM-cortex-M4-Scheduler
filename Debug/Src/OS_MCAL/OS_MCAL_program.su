@@ -1,0 +1,10 @@
+../Src/OS_MCAL/OS_MCAL_program.c:29:6:SYSTICK_voidInit	16	static
+../Src/OS_MCAL/OS_MCAL_program.c:45:6:SYSTICK_voidDisable	4	static
+../Src/OS_MCAL/OS_MCAL_program.c:55:13:HelperFun_SavePSP_value	16	static
+../Src/OS_MCAL/OS_MCAL_program.c:60:13:HelperFun_IncrementCurrentTask	16	static
+../Src/OS_MCAL/OS_MCAL_program.c:76:13:unblockTasks	16	static
+../Src/OS_MCAL/OS_MCAL_program.c:89:6:SysTick_Handler	8	static
+../Src/OS_MCAL/OS_MCAL_program.c:106:30:PendSV_Handler	0	static,ignoring_inline_asm
+../Src/OS_MCAL/OS_MCAL_program.c:128:30:Stack_voidSchedulerStackInit	0	static,ignoring_inline_asm
+../Src/OS_MCAL/OS_MCAL_program.c:137:30:ChangeToPSP	0	static,ignoring_inline_asm
+../Src/OS_MCAL/OS_MCAL_program.c:155:6:Stack_voidInitTaskStack	16	static

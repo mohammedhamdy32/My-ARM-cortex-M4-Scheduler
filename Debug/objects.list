@@ -1,3 +1,8 @@
+"./Src/GPIO/GPIO_Program.o"
+"./Src/Kernal/Kernal_program.o"
+"./Src/OS_MCAL/OS_MCAL_program.o"
+"./Src/RCC/RCC_program.o"
+"./Src/Tasks/Tasks.o"
 "./Src/main.o"
 "./Src/syscalls.o"
 "./Src/sysmem.o"

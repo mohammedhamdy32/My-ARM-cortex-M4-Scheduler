@@ -1,0 +1,7 @@
+../Src/Kernal/Kernal_program.c:27:6:OS_Init	16	static
+../Src/Kernal/Kernal_program.c:48:4:OS_CreateTask	16	static
+../Src/Kernal/Kernal_program.c:84:6:OS_TaskDelay	16	static,ignoring_inline_asm
+../Src/Kernal/Kernal_program.c:98:6:OS_StartScheduler	16	static
+../Src/Kernal/Kernal_program.c:109:5:SVC_execute	24	static,ignoring_inline_asm
+../Src/Kernal/Kernal_program.c:131:30:SVC_Handler	0	static,ignoring_inline_asm
+../Src/Kernal/Kernal_program.c:140:6:SVC_Handeler_C	24	static
